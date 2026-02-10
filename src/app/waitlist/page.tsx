@@ -65,7 +65,7 @@ export default function WaitlistPage() {
             <div className="flex items-center gap-3 text-gray-600">
               <Users className="w-5 h-5 text-[#FF6A00]" />
               <span className="font-light">
-                <span className="font-semibold text-[#FF6A00]">{totalWaitlist.toLocaleString()}</span> innovators already on the list
+                
               </span>
             </div>
           </div>

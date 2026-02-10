@@ -25,6 +25,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Link from "next/link";
 
 type DemoFormData = z.infer<typeof demoBookingSchema>;
 
@@ -446,7 +447,7 @@ export default function BookDemoPage() {
                       )}
                     </Button>
                     <p className="text-xs font-light opacity-60 text-center mt-4">
-                      By submitting, you agree to our Terms of Service and Privacy Policy
+                      By submitting, you agree to our <Link className="outline" href={`/terms`}>Terms of Service</Link> and <Link className="outline" href={`/policy`}>Privacy Policy</Link>
                     </p>
                   </div>
                 </form>
