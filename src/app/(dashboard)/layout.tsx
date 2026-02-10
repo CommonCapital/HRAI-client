@@ -15,9 +15,12 @@ const Layout = async ({children}:Props) => {
     
     return (
         <SidebarProvider>
-           <DashboardSidebar />
+            {/**<DashboardSidebar /> */}
+          
            <main className="flex flex-col h-screen w-screen bg-muted">
-            <DashboardNavbar />
+          {/**  <DashboardNavbar /> */}
+          
+
             {children}
             </main>
         </SidebarProvider>

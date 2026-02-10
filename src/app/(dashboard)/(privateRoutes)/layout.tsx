@@ -5,6 +5,7 @@ import { DashboardSidebar } from "@/modules/dashboard/ui/components/dashboard-si
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
+
 interface Props {
     children: React.ReactNode;
 }
@@ -19,7 +20,7 @@ const Layout = async ({children}:Props) => {
             if (!session) {
               redirect("/auth/sign-in");
             }
-    
+    redirect(`/`)
     return (
        <div>
         {children}
