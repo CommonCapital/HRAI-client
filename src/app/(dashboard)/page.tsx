@@ -633,12 +633,6 @@ export default function HRAILanding() {
             <h2 className="text-5xl font-semibold mb-6">Built for volume</h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <FeatureCard icon={Users} title="Candidates Screened" value="12,847" delay={0} />
-            <FeatureCard icon={Clock} title="Hours Saved" value="8,920" delay={0.1} />
-            <FeatureCard icon={CheckCircle2} title="Accuracy Rate" value="94%" delay={0.2} />
-            <FeatureCard icon={TrendingUp} title="Quality Hires" value="+47%" delay={0.3} />
-          </div>
 
           {/* Real-time Activity Feed */}
           <motion.div
